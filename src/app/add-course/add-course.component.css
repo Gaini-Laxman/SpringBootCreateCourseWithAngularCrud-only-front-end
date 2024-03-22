@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header, .footer {
+    width: 100%;
+    background-color: #007bff; /* Change color as needed */
+    padding: 10px 0;
+    text-decoration: solid;
+    text-align: center;
+    text-shadow: 0cqb;
+    
+  }
+  
+  .main-content {
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  .logo {
+    height: 50px; /* Adjust height as needed */
+    transform: rotate(); /* Flip horizontally */
+}
+.navbar-nav .nav-link {
+    color: white; /* Default link color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff002f; /* Change color on hover */
+  }
+  

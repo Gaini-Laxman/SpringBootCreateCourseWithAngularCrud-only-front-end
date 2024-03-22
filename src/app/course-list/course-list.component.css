@@ -1,0 +1,91 @@
+/* course-list.component.css */
+
+/* Ensure that the course table takes up the full width */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table header and table data cells */
+.course-table th, .course-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for table header */
+.course-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+/* Style for edit and delete buttons */
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for edit button */
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Style for delete button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Hover effect for buttons */
+.edit-button:hover, .delete-button:hover {
+  background-color: #45a049;
+}
+
+/* Wrapper to center content vertically and horizontally */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header and footer styles */
+.header, .footer {
+  width: 100%;
+  background-color: #007bff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Main content width */
+.main-content {
+  width: 80%;
+}
+
+/* Footer style with margin to push it to the bottom */
+.footer {
+  margin-top: auto;
+}
+
+/* Logo size adjustment */
+.logo {
+  height: 50px;
+}
+
+/* Navbar link color */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+/* Navbar link hover color */
+.navbar-nav .nav-link:hover {
+  color: #a01313;
+}
+.button-container {
+  display: inline-block;
+   animation: both;
+}

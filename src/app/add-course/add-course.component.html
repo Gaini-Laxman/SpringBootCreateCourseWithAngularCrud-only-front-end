@@ -1,0 +1,55 @@
+<div class="wrapper">
+    <header class="header">
+      <!-- Your header content goes here -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <!--<a class="navbar-brand" href="#">Your Logo</a> --!>
+        <!-- Add your navigation links here -->
+        <img src="assets\icon.png" alt="Logo" class="logo">
+        <ul class="navbar-nav mx-auto"> <!-- mx-auto class to align in the middle -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+      </nav>
+    </header>
+  
+    <div class="container main-content">
+      <h2>Add Course</h2>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name">Course Name<span class="text-danger">*</span>:</label>
+          <input type="text" class="form-control" id="name" [(ngModel)]="course.name" name="name" placeholder="Enter course name" required>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration<span class="text-danger">*</span>:</label>
+          <input type="text" class="form-control" id="duration" [(ngModel)]="course.duration" name="duration" placeholder="Enter course duration" required>
+        </div>
+        <div class="form-group">
+          <label for="price">Price<span class="text-danger">*</span>:</label>
+          <input type="number" class="form-control" id="price" [(ngModel)]="course.price" name="price" placeholder="Enter course price" required>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-primary" routerLink="/courses">Course List</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  
+    <footer class="footer">
+      <!-- Your footer content goes here -->
+      <div class="container">
+        <span class="text-muted">&copy;2024 All Copy Rights Reserved with Java Fullstack Guru</span>
+      </div>
+    </footer>
+  </div>
